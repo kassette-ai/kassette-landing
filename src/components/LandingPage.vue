@@ -2,30 +2,30 @@
     <div class="bg-black">
         <header class="inset-x-0 z-50 pt-2.5">
             <div class="container m-auto grid grid-cols-8 pt-4">
-                    <div class="col-span-2 h-12 p-1">
+                    <div class="col-span-2 h-16 p-1">
                         <p class="text-4xl font-black text-white subpixel-antialiased"><img class="inline-flex h-8" src="../assets/kassette.icon.svg" alt="" />
                             Kassette
                         </p>
                     </div>
 
-                    <div class="col-span-1 flex h-12 items-center justify-center text-gray-300">
+                    <div class="col-span-1 flex h-16 items-center justify-center text-gray-300">
 <!--                        PRICING-->
                     </div>
 
-                <div class="col-span-1 flex h-12 items-center justify-center text-gray-300">
+                <div class="col-span-1 flex h-16 items-center justify-center text-gray-300">
 <!--                    INTEGRATIONS-->
                 </div>
-                <div class="col-span-1 flex h-12 items-center justify-center text-gray-300">
+                <div class="col-span-1 flex h-16 items-center justify-center text-gray-300">
 <!--                    SALES-->
                 </div>
-                    <div class="col-span-1 flex h-12 items-center justify-center bg-aqua">
+                    <div class="col-span-1 flex h-16 items-center justify-center bg-aqua">
                         <div class="col-span-1 flex h-12 items-center justify-center bg-indigo-600">
                         </div>
-                        <div class="h-full w-full bg-black rounded-br-[25px]">
+                        <div class="h-full w-full bg-black rounded-br-[50px]">
                         </div>
                     </div>
-                <div class="col-span-2 flex h-15 items-center justify-center bg-aqua rounded-t-[30px]">
-                        <a href="https://github.com/kassette-ai/kassette-server" class="rounded-full bg-black px-10 text-sm font-semibold text-white shadow-sm px-3.5 py-2.5 hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Download</a>
+                <div class="col-span-2 flex h-16 items-center justify-center bg-aqua rounded-tr-[30px] rounded-tl-[20px]">
+                        <a href="https://github.com/kassette-ai/kassette-server" class="rounded-full p-2 tracking-widest bg-black px-10 text-sm font-semibold text-white shadow-sm px-3.5 py-2.5 hover:bg-gray-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600">Download</a>
                 </div>
             </div>
             </header>
@@ -39,7 +39,7 @@
                             <h3 class="p-2">BOOK A CONSULTATION</h3>
                         </div>
                     </div>
-                    <div class="col-span-1 items-center justify-center p-16">
+                    <div class="col-span-1 items-center justify-center p-16 px-40">
                         <p class="text-4xl font-black text-white subpixel-antialiased"><img class="inline-flex h-100" src="../assets/workflow.svg" alt="" />
 
                         </p>
@@ -107,7 +107,7 @@
                     <p class="mt-6 text-lg leading-8 text-gray-400">Kassette makes it easy to collect and send your workflow and business activity data to the teams that need it.</p>
 
                     <div class="mt-10 flex items-center justify-center gap-x-6">
-                        <a href="#" class="rounded-md text-sm font-semibold text-white shadow-sm bg-aqua px-3.5 py-2.5 hover:bg-blue-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
+                        <a href="#" class="rounded-md text-sm font-semibold text-white shadow-sm bg-aqua px-8 py-2.5 hover:bg-blue-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-800">Get started</a>
                         <a href="#" class="text-sm font-semibold leading-6 text-gray-300">Learn more <span aria-hidden="true">→</span></a>
                     </div>
                 </div>
