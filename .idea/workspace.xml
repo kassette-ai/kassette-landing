@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="003bda38-4914-4506-9364-1487ff7897c5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/LandingPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LandingPage.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +74,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
   <component name="RunManager">
@@ -199,7 +204,7 @@
       <workItem from="1682506482657" duration="7600000" />
       <workItem from="1683022840043" duration="165000" />
       <workItem from="1683023009350" duration="7067000" />
-      <workItem from="1687438667097" duration="19582000" />
+      <workItem from="1687438667097" duration="20722000" />
     </task>
     <servers />
   </component>

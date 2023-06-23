@@ -1,9 +1,5 @@
 <template>
-
-
     <div class="bg-black">
-
-
         <header class="inset-x-0 z-50 pt-2.5">
             <div class="container m-auto grid grid-cols-8 pt-4">
                     <div class="col-span-2 h-12 p-1">
@@ -24,23 +20,16 @@
                 </div>
                     <div class="col-span-1 flex h-12 items-center justify-center bg-aqua">
                         <div class="col-span-1 flex h-12 items-center justify-center bg-indigo-600">
-
                         </div>
                         <div class="h-full w-full bg-black rounded-br-[25px]">
-
                         </div>
                     </div>
                 <div class="col-span-2 flex h-15 items-center justify-center bg-aqua rounded-t-[30px]">
-
-                        <a href="#" class="rounded-full bg-black px-10 text-sm font-semibold text-white shadow-sm px-3.5 py-2.5 hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Download</a>
+                        <a href="https://github.com/kassette-ai/kassette-server" class="rounded-full bg-black px-10 text-sm font-semibold text-white shadow-sm px-3.5 py-2.5 hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Download</a>
                 </div>
-
-
             </div>
             </header>
-
             <div class="container m-auto grid h-20 grid-cols-2 bg-aqua p-2.5 rounded-b-[30px] rounded-tl-[30px] h-[36rem]">
-
                     <div class="col-span-1">
                         <div class="pl-20">
                         <h2 class="py-10 text-xl text-gray-500">BUSINESS ACTIVITY MONITORING</h2>
@@ -59,7 +48,7 @@
 
         <section class="p-4 lg:py-8">
             <div class="container mx-auto">
-                <div class="relative grid gap-4 rounded-md bg-grey-900 p-4 shadow-2xl md:grid-cols-2 lg:grid-cols-4 lg:p-6">
+                <div class="relative grid gap-4 rounded-md bg-gray-800 p-4 shadow-2xl md:grid-cols-2 lg:grid-cols-4 lg:p-6">
                     <a href="#solution"
                        class="flex flex-row items-center justify-center rounded-md bg-gradient-to-b from-gray-100 to-gray-50 p-4 hover:bg-gradient-to-br hover:from-orange-50 hover:to-gray-50 lg:space-y-4 lg:flex-col lg:py-12 lg:text-center">
                         <div class="mr-4 rounded bg-white p-2 shadow-lg shadow-gray-200 lg:mr-0">
