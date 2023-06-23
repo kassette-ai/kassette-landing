@@ -1,77 +1,133 @@
 <template>
-    <div class="bg-white">
-        <header class="absolute inset-x-0 top-0 z-50">
-            <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
-                <div class="flex lg:flex-1">
-                    <a href="#" class="-m-1.5 p-1.5">
-                        <span class="sr-only">Kassette</span>
-                        <img class="h-8 w-auto" src="../assets/kassette.icon.svg" alt="" />
-                    </a>
-                </div>
-                <div class="flex lg:hidden">
-                    <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700" @click="mobileMenuOpen = true">
-                        <span class="sr-only">Open main menu</span>
-                        <Bars3Icon class="h-6 w-6" aria-hidden="true" />
-                    </button>
-                </div>
-                <div class="hidden lg:flex lg:gap-x-12">
-                    <a v-for="item in navigation" :key="item.name" :href="item.href" class="text-sm font-semibold leading-6 text-gray-900">{{ item.name }}</a>
-                </div>
-                <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-                    <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
-                </div>
-            </nav>
-            <Dialog as="div" class="lg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
-                <div class="fixed inset-0 z-50" />
-                <DialogPanel class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-                    <div class="flex items-center justify-between">
-                        <a href="#" class="-m-1.5 p-1.5">
-                            <span class="sr-only">Your Company</span>
-                            <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
-                        </a>
-                        <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" @click="mobileMenuOpen = false">
-                            <span class="sr-only">Close menu</span>
-                            <XMarkIcon class="h-6 w-6" aria-hidden="true" />
-                        </button>
-                    </div>
-                    <div class="mt-6 flow-root">
-                        <div class="-my-6 divide-y divide-gray-500/10">
-                            <div class="space-y-2 py-6">
-                                <a v-for="item in navigation" :key="item.name" :href="item.href" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{ item.name }}</a>
-                            </div>
-                            <div class="py-6">
-                                <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log in</a>
-                            </div>
-                        </div>
-                    </div>
-                </DialogPanel>
-            </Dialog>
-        </header>
 
-        <div class="relative isolate px-6 pt-14 lg:px-8">
-                        <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
-                            <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)" />
+
+    <div class="bg-black">
+
+
+        <header class="inset-x-0 z-50 pt-2.5">
+            <div class="container m-auto grid grid-cols-8 pt-4">
+                    <div class="col-span-2 h-12 p-1">
+                        <p class="text-4xl font-black text-white subpixel-antialiased"><img class="inline-flex h-8" src="../assets/kassette.icon.svg" alt="" />
+                            Kassette
+                        </p>
+                    </div>
+
+                    <div class="col-span-1 flex h-12 items-center justify-center text-gray-300">
+<!--                        PRICING-->
+                    </div>
+
+                <div class="col-span-1 flex h-12 items-center justify-center text-gray-300">
+<!--                    INTEGRATIONS-->
+                </div>
+                <div class="col-span-1 flex h-12 items-center justify-center text-gray-300">
+<!--                    SALES-->
+                </div>
+                    <div class="col-span-1 flex h-12 items-center justify-center bg-aqua">
+                        <div class="col-span-1 flex h-12 items-center justify-center bg-indigo-600">
+
                         </div>
-            <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+                        <div class="h-full w-full bg-black rounded-br-[25px]">
+
+                        </div>
+                    </div>
+                <div class="col-span-2 flex h-15 items-center justify-center bg-aqua rounded-t-[30px]">
+
+                        <a href="#" class="rounded-full bg-black px-10 text-sm font-semibold text-white shadow-sm px-3.5 py-2.5 hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Download</a>
+                </div>
+
+
+            </div>
+            </header>
+
+            <div class="container m-auto grid h-20 grid-cols-2 bg-aqua p-2.5 rounded-b-[30px] rounded-tl-[30px] h-[36rem]">
+
+                    <div class="col-span-1">
+                        <div class="pl-20">
+                        <h2 class="py-10 text-xl text-gray-500">BUSINESS ACTIVITY MONITORING</h2>
+                        <h1 class="py-4 text-7xl font-bold">We Make</h1>
+                        <h1 class="py-4 text-6xl font-extrabold"><span class="blur-sm">Business Activity</span></h1>
+                        <h1 class="py-4 text-7xl font-extrabold"> Visible</h1>
+                            <h3 class="p-2">BOOK A CONSULTATION</h3>
+                        </div>
+                    </div>
+                    <div class="col-span-1 items-center justify-center p-16">
+                        <p class="text-4xl font-black text-white subpixel-antialiased"><img class="inline-flex h-100" src="../assets/workflow.svg" alt="" />
+
+                        </p>
+                    </div>
+            </div>
+
+        <section class="p-4 lg:py-8">
+            <div class="container mx-auto">
+                <div class="relative grid gap-4 rounded-md bg-pink-hue p-4 shadow-2xl md:grid-cols-2 lg:grid-cols-4 lg:p-6">
+                    <a href="#solution"
+                       class="flex flex-row items-center justify-center rounded-md bg-gradient-to-b from-gray-100 to-gray-50 p-4 hover:bg-gradient-to-br hover:from-orange-50 hover:to-gray-50 lg:space-y-4 lg:flex-col lg:py-12 lg:text-center">
+                        <div class="mr-4 rounded bg-white p-2 shadow-lg shadow-gray-200 lg:mr-0">
+                            <svg fill="none" viewBox="0 0 32 32" class="h-6 w-6 fill-black md:h-8 md:w-8">
+                                <path d="M14.134 9.067v8l6.267 3.866 1.066-1.6-5.333-3.2V9.067h-2Z"></path>
+                                <path d="M16.8 24.96a9.276 9.276 0 0 1-10.667-9.227c0-5.2 4.134-9.333 9.334-9.333 5.2 0 9.333 4.133 9.333 9.333 0 .934-.133 1.827-.387 2.667h2.747c.2-.853.307-1.747.307-2.667 0-6.666-5.333-12-12-12s-12 5.334-12 12A11.95 11.95 0 0 0 16.8 27.653V24.96Z"></path>
+                                <path d="m20 24.707 1.893-1.88 2.84 2.826L30.387 20l1.88 1.88-7.547 7.547-4.72-4.72Z"></path>
+                            </svg>
+                        </div>
+                        <div class="flex-1"><h3 class="text-lg font-bold text-gray-800 font-headers">Real-Time
+                            Workflow</h3>
+                            <p class="text-slate-600">Instant alerts and aggregation for your workflows in Camunda, Activiti and more</p></div>
+                    </a><a href="#solution"
+                           class="flex flex-row items-center justify-center rounded-md bg-gradient-to-b from-gray-100 to-gray-50 p-4 hover:bg-gradient-to-br hover:from-orange-50 hover:to-gray-50 lg:space-y-4 lg:flex-col lg:py-12 lg:text-center">
+                    <div class="mr-4 rounded bg-white p-2 shadow-lg shadow-gray-200 lg:mr-0">
+                        <svg fill="none" viewBox="0 0 32 32" class="h-6 w-6 fill-black md:h-8 md:w-8">
+                            <path d="m14.12 16 5.334-5.333h-4.787V8H24v9.333h-2.666v-4.786L16 17.88v3.453h10.667v-16h-16V16h3.453ZM29.334 2.667V24H16v5.333H2.667V16H8V2.667h21.334Zm-16 16h-8v8h8v-8Z"></path>
+                            <path d="M19.453 10.667 14.12 16 16 17.88l5.334-5.333v4.786H24V8h-9.333v2.667h4.786Z"></path>
+                        </svg>
+                    </div>
+                    <div class="flex-1"><h3 class="text-lg font-bold text-gray-800 font-headers">Scalable Ingestion</h3>
+                        <p class="text-slate-600">Handles millions of usage events per second</p></div>
+                </a><a href="#solution"
+                       class="flex flex-row items-center justify-center rounded-md bg-gradient-to-b from-gray-100 to-gray-50 p-4 hover:bg-gradient-to-br hover:from-orange-50 hover:to-gray-50 lg:space-y-4 lg:flex-col lg:py-12 lg:text-center">
+                    <div class="mr-4 rounded bg-white p-2 shadow-lg shadow-gray-200 lg:mr-0">
+                        <svg fill="none" viewBox="0 0 32 32" class="h-6 w-6 fill-black md:h-8 md:w-8">
+                            <path d="M16 2.667A13.333 13.333 0 1 0 29.334 16c0-1.547-.28-3.08-.814-4.52l-2.133 2.133c.187.787.28 1.587.28 2.387A10.667 10.667 0 1 1 16 5.333c.8 0 1.6.094 2.387.28l2.147-2.146a13.47 13.47 0 0 0-4.534-.8Zm9.334 0L20 8v2l-3.4 3.4c-.2-.067-.4-.067-.6-.067A2.667 2.667 0 1 0 18.667 16c0-.2 0-.4-.067-.6L22 12h2l5.334-5.333h-4v-4ZM16 8a8 8 0 1 0 8 8h-2.666A5.333 5.333 0 1 1 16 10.667V8Z"></path>
+                            <path d="m20 8 5.333-5.333v4h4L24 12h-2l-3.4 3.4c.066.2.066.4.066.6A2.667 2.667 0 1 1 16 13.333c.2 0 .4 0 .6.067L20 10V8Z"></path>
+                        </svg>
+                    </div>
+                    <div class="flex-1"><h3 class="text-lg font-bold text-gray-800 font-headers">Accurate</h3>
+                        <p class="text-slate-600">Get exact data to view your teams performance</p></div>
+                </a><a href="#solution"
+                       class="flex flex-row items-center justify-center rounded-md bg-gradient-to-b from-gray-100 to-gray-50 p-4 hover:bg-gradient-to-br hover:from-orange-50 hover:to-gray-50 lg:space-y-4 lg:flex-col lg:py-12 lg:text-center">
+                    <div class="mr-4 rounded bg-white p-2 shadow-lg shadow-gray-200 lg:mr-0">
+                        <svg fill="none" viewBox="0 0 32 32" class="h-6 w-6 fill-black md:h-8 md:w-8">
+                            <path d="M15.667 3 5 7v8.12c0 6.733 4.547 13.013 10.667 14.547 6.12-1.534 10.666-7.814 10.666-14.547V7L15.667 3Zm8 12.12c0 5.333-3.4 10.267-8 11.773-4.6-1.506-8-6.426-8-11.773V8.747l8-2.827 8 2.827v6.373Zm-12.24-.667-1.894 1.88 4.72 4.72 7.547-7.546-1.88-1.88-5.653 5.653-2.84-2.827Z"></path>
+                            <path d="m9.5 16.307 1.893-1.88 2.84 2.826 5.654-5.653 1.88 1.88-7.547 7.547-4.72-4.72Z"></path>
+                        </svg>
+                    </div>
+                    <div class="flex-1"><h3 class="text-lg font-bold text-gray-800 font-headers">Fault Tolerant</h3>
+                        <p class="text-slate-600">Never lose data or miss SLAs again</p></div>
+                </a></div>
+            </div>
+        </section>
+        <div class="mx-auto max-w-2xl py-6">
                 <div class="hidden sm:mb-8 sm:flex sm:justify-center">
-                    <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                        We're still in private beta. <a href="#" class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true" />Read more <span aria-hidden="true">&rarr;</span></a>
+
+                    <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-200 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                        We're still in private beta.
+<!--                        <a href="#" class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true" />Read more <span aria-hidden="true">&rarr;</span></a>-->
                     </div>
                 </div>
                 <div class="text-center">
-                    <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Realtime data to enrich your organisation</h1>
-                    <p class="mt-6 text-lg leading-8 text-gray-600">Kassette makes it easy to collect and send your process data to the teams that need it.</p>
+                    <h1 class="text-4xl font-bold tracking-tight text-gray-100 sm:text-6xl">Unlock your workflow data</h1>
+                    <p class="mt-6 text-lg leading-8 text-gray-400">Kassette makes it easy to collect and send your workflow and business activity data to the teams that need it.</p>
+
                     <div class="mt-10 flex items-center justify-center gap-x-6">
-                        <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
-                        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a>
+                        <a href="#" class="rounded-md text-sm font-semibold text-white shadow-sm bg-aqua px-3.5 py-2.5 hover:bg-blue-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
+                        <a href="#" class="text-sm font-semibold leading-6 text-gray-300">Learn more <span aria-hidden="true">→</span></a>
                     </div>
                 </div>
             </div>
-                        <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
-                            <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)" />
-                        </div>
+<!--                        <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">-->
+<!--                            <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)" />-->
+<!--                        </div>-->
         </div>
-    </div>
+
 </template>
 
 <script setup>
