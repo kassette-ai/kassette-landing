@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="003bda38-4914-4506-9364-1487ff7897c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/workflow-again.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/workflow.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/LandingPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LandingPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +199,7 @@
       <workItem from="1682506482657" duration="7600000" />
       <workItem from="1683022840043" duration="165000" />
       <workItem from="1683023009350" duration="7067000" />
-      <workItem from="1687438667097" duration="18280000" />
+      <workItem from="1687438667097" duration="19582000" />
     </task>
     <servers />
   </component>

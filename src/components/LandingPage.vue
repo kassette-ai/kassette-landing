@@ -59,7 +59,7 @@
 
         <section class="p-4 lg:py-8">
             <div class="container mx-auto">
-                <div class="relative grid gap-4 rounded-md bg-pink-hue p-4 shadow-2xl md:grid-cols-2 lg:grid-cols-4 lg:p-6">
+                <div class="relative grid gap-4 rounded-md bg-grey-900 p-4 shadow-2xl md:grid-cols-2 lg:grid-cols-4 lg:p-6">
                     <a href="#solution"
                        class="flex flex-row items-center justify-center rounded-md bg-gradient-to-b from-gray-100 to-gray-50 p-4 hover:bg-gradient-to-br hover:from-orange-50 hover:to-gray-50 lg:space-y-4 lg:flex-col lg:py-12 lg:text-center">
                         <div class="mr-4 rounded bg-white p-2 shadow-lg shadow-gray-200 lg:mr-0">
