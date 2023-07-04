@@ -33,9 +33,9 @@
                     <div class="col-span-1">
                         <div class="pl-20">
                         <h2 class="py-10 text-xl text-gray-500">BUSINESS ACTIVITY MONITORING</h2>
-                        <h1 class="py-4 text-7xl font-bold">We Make</h1>
-                        <h1 class="py-4 text-6xl font-extrabold"><span class="blur-sm">Business Activity</span></h1>
-                        <h1 class="py-4 text-7xl font-extrabold"> Visible</h1>
+                        <h1 class="py-4 text-7xl font-bold">View</h1>
+                        <h1 class="py-4 text-6xl font-extrabold"><span class="blur-sm">Workflow Reports</span></h1>
+                        <h1 class="py-4 text-7xl font-extrabold"> with clarity</h1>
                             <h3 class="p-2">BOOK A CONSULTATION</h3>
                         </div>
                     </div>
@@ -112,9 +112,6 @@
                     </div>
                 </div>
             </div>
-<!--                        <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">-->
-<!--                            <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)" />-->
-<!--                        </div>-->
         </div>
 
 </template>
