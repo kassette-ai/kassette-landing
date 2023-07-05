@@ -12,6 +12,7 @@
     "@fullstory/browser": "^1.7.1",
     "@headlessui/vue": "^1.7.13",
     "@heroicons/vue": "^2.0.17",
+    "posthog-js": "^1.69.0",
     "three": "^0.151.3",
     "vanta": "^0.5.24",
     "vue": "^3.2.47"
